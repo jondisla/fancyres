@@ -1,0 +1,30 @@
+.topJumbo{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url('./img/topJumbo.jpg') !important;
+    height: 100vh;
+    color: white;
+    .jumboText{
+        padding: 40px 80px;
+        h1{
+        font-family: 'Parisienne', cursive;
+        }
+        h2{
+            font-size: 80px;
+        }
+        p{
+            font-family: 'Lato', sans-serif;
+        }
+        table{
+            margin: 20px 0;
+            td{
+            padding: 10px 20px;
+            background: rgba(128, 128, 128, 0.322);
+            font-size:25px;
+            border: 1px solid rgba(216, 216, 216, 0.445);
+            }
+        }
+        .button{
+            margin: 40px 0;
+
+        }
+    }
+}
