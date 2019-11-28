@@ -8,7 +8,7 @@
             </p>
             <div class="menu-nav">
                 <ul>
-                    <li id="menu-all">ALL</li>
+                    <li id="menu-all" class="active">ALL</li>
                     <li id="menu-salad">SALAD</li>
                     <li id="menu-sandwich">SANDWICH</li>
                     <li id="menu-meat">MEAT</li>

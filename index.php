@@ -8,6 +8,8 @@
 <?php include './public/views/story/story.php'?>
 <!-- short menu -->
 <?php include './public/views/short-menu/short-menu.php'?>
+<!-- reviews -->
+<?php include './public/views/reviews/reviews.php'?>
 
 
 

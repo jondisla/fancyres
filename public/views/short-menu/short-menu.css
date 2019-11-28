@@ -42,16 +42,25 @@
   padding: 15px 30px;
 }
 
+.short-menu .content .menu-nav li:hover {
+  cursor: pointer;
+}
+
 .short-menu .content .menu-nav li.active {
   border-bottom: 2px solid red;
 }
 
 .short-menu .content .menu-sec.active {
-  margin: -60px 0;
+  margin: -20px 0;
 }
 
 .short-menu .content .menu-sec .row {
-  margin: 60px 0;
+  margin: 20px 0;
+}
+
+.short-menu .content .menu-sec .card {
+  -webkit-box-shadow: -1px 0px 5px 2px #ebebeb;
+  box-shadow: -1px 0px 5px 2px #ebebeb;
 }
 
 .short-menu .content .menu-sec .menu-price {
