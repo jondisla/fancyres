@@ -10,6 +10,8 @@
 <?php include './public/views/short-menu/short-menu.php'?>
 <!-- reviews -->
 <?php include './public/views/reviews/reviews.php'?>
+<!-- footer-sec -->
+<?php include './public/views/footer/footer-sec.php'?>
 
 
 

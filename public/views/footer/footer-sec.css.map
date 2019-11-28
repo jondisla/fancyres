@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,OAAe;EAC3B,KAAK,EAJI,OAAkB;EAK3B,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "footer-sec.scss"
+    ],
+    "names": [],
+    "file": "footer-sec.css"
+}

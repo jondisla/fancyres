@@ -40,4 +40,8 @@
   padding: 20px 0;
   text-transform: uppercase;
 }
+
+.reviews .content .card-section .card .score {
+  color: red;
+}
 /*# sourceMappingURL=reviews.css.map */

@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./public/views/short-menu/short-menu.css?v=<?php echo rand().+4 ?>">
     <!-- reviews -->
     <link rel="stylesheet" href="./public/views/reviews/reviews.css?v=<?php echo rand().+5 ?>">
+    <!-- footer-sec -->
+    <link rel="stylesheet" href="./public/views/footer/footer-sec.css?v=<?php echo rand().+6 ?>">
     <!-- End CSS -->
 
     <!-- Google Fonts -->
