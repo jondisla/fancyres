@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./public/views/jumbo/jumbo.css?v=<?php echo rand().+2 ?>">
     <!-- story -->
     <link rel="stylesheet" href="./public/views/story/story.css?v=<?php echo rand().+3 ?>">
+    <!-- short-menu -->
+    <link rel="stylesheet" href="./public/views/short-menu/short-menu.css?v=<?php echo rand().+4 ?>">
     <!-- End CSS -->
 
     <!-- Google Fonts -->

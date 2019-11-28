@@ -1,4 +1,4 @@
-<?php include './includes/header.php' ?>
+
 <div class="tinted">
 <div class="jumbotron topJumbo">
   <div class="jumboText">
@@ -22,5 +22,3 @@
     </p>
   </div>
 </div>
-
-<?php include './includes/footer.php' ?>

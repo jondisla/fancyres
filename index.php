@@ -6,6 +6,8 @@
 <?php include './public/views/jumbo/jumbo.php'?>
 <!-- story -->
 <?php include './public/views/story/story.php'?>
+<!-- short menu -->
+<?php include './public/views/short-menu/short-menu.php'?>
 
 
 

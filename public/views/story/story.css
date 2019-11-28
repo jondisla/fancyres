@@ -1,3 +1,7 @@
+.story {
+  padding: 40px 0;
+}
+
 .story p {
   color: #5e5c5c;
 }
@@ -13,18 +17,41 @@
   font-size: 30px;
 }
 
-.story table {
+.story .phnEmail {
   margin: 20px 0;
+  font-size: 30px;
+  border: 1px solid rgba(187, 187, 187, 0.602);
+  padding: 10px 20px;
 }
 
-.story table td {
-  padding: 10px 20px;
-  font-size: 25px;
-  border: 1px solid rgba(216, 216, 216, 0.445);
+.story .phnEmail i {
+  color: red;
+  font-size: 40px;
+}
+
+.story .phnEmail .btn {
+  border-right: 1px solid rgba(187, 187, 187, 0.602);
+  font-size: 20px;
 }
 
 .story .bookCard {
   -webkit-box-shadow: -1px 0px 5px 2px #ebebeb;
   box-shadow: -1px 0px 5px 2px #ebebeb;
+}
+
+.story .bookCard i {
+  color: red;
+  font-size: 40px;
+}
+
+.story .bookCard .card-content {
+  padding: 30px 20px;
+}
+
+.story .bookCard input, .story .bookCard select {
+  width: 90%;
+  height: 50px;
+  margin: 10px 0;
+  background: white !important;
 }
 /*# sourceMappingURL=story.css.map */

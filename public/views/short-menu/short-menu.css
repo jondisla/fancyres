@@ -1,0 +1,82 @@
+.short-menu {
+  background: #f8f8f8;
+}
+
+.short-menu .content {
+  padding: 70px 0;
+}
+
+.short-menu .content h3 {
+  font-family: 'Parisienne', cursive;
+  color: red;
+  font-size: 30px;
+}
+
+.short-menu .content h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.short-menu .content .subtext {
+  width: 700px;
+  margin: 0 auto;
+  color: #5e5c5c;
+}
+
+.short-menu .content .menu-nav {
+  padding: 70px 0;
+  font-weight: bold;
+  color: #5e5c5c;
+}
+
+.short-menu .content .menu-nav ul {
+  list-style-type: none;
+  border-top: 1px solid #c3c3c3;
+  border-bottom: 1px solid #c3c3c3;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.short-menu .content .menu-nav li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.short-menu .content .menu-nav li.active {
+  border-bottom: 2px solid red;
+}
+
+.short-menu .content .menu-sec.active {
+  margin: -60px 0;
+}
+
+.short-menu .content .menu-sec .row {
+  margin: 60px 0;
+}
+
+.short-menu .content .menu-sec .menu-price {
+  position: absolute;
+  margin: 20px;
+  border-radius: 30px;
+  width: 90px;
+  height: 40px;
+  line-height: 250%;
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+
+.short-menu .content .menu-sec .card-body .card-title {
+  font-size: 20px;
+}
+
+.short-menu .content .menu-sec .card-body .order-now {
+  color: red;
+  border-top: 1px solid #c3c3c3;
+  font-weight: bold;
+}
+
+.short-menu .content .menu-sec .card-body .order-now p {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=short-menu.css.map */

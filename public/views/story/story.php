@@ -1,9 +1,7 @@
-<?php include './includes/header.php' ?>
-
 <div class="container">
     <div class="story">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
                 <h3>Our Story</h3>
                 <div class="subtitle">
                 Until I discovered cooking I was never
@@ -18,26 +16,38 @@
                 </p>
                 <div class="phnEmail">
                     <div class="row text-center">
-                        <div class="col-lg-6">
+                        <div class="btn col-lg-6">
                         <i class="fas fa-phone"></i> PHONE
                         </div>
-                        <div class="col-lg-6">
+                        <div class="btn col-lg-6">
                         <i class="fas fa-envelope-open"></i> EMAIL
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="card bookCard">
+            <div class="col-lg-5">
+                <div class="card bookCard text-center">
                     <img class="card-img-top" src="holder.js/100x180/" alt="">
                     <div class="card-body">
-                        <h4 class="card-title text-center">BOOK A TABLE</h4>
-                        <p class="card-text">Text</p>
+                        <i class="fas fa-utensils"></i>
+                        <div class="card-content">
+                            <h4 class="card-title">BOOK A TABLE</h4>
+                            <form action="" method="post">
+                                <input type="text" name="name" placeholder="Name">
+                                <input type="text" name="email" placeholder="Email">
+                                <select class="select">
+                                    <option>1 person</option>
+                                    <option>2 persons</option>
+                                    <option>3 persons</option>
+                                    <option>4 persons</option>
+                                </select>
+                                <input type="text" name="date" placeholder="Email">
+                                <button type="submit" class="btn btn-danger">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<?php include './includes/footer.php'; ?>
