@@ -2,5 +2,52 @@
   background: #242424;
   color: #e4e2e2;
   padding: 60px 0;
+  font-size: 15px;
+}
+
+.footer-sec .link-section {
+  border-bottom: 1px solid #e4e2e2;
+}
+
+.footer-sec img {
+  width: 200px;
+  padding: 0 0 10px 0;
+}
+
+.footer-sec .footer-menu {
+  margin: 15px 0;
+}
+
+.footer-sec .footer-menu h5 {
+  text-transform: uppercase;
+}
+
+.footer-sec .footer-menu ul {
+  margin: 0;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+.footer-sec .footer-menu ul li {
+  margin: 0 -40px;
+  padding: 10px 0;
+}
+
+.footer-sec .footer-menu .opening-hours li {
+  border-bottom: 1px solid #e4e2e2;
+}
+
+.footer-sec .terms {
+  padding: 20px 0;
+}
+
+.footer-sec .terms ul {
+  position: absolute;
+  list-style-type: none;
+  right: 100px;
+}
+
+.footer-sec .terms ul li {
+  display: inline-block;
 }
 /*# sourceMappingURL=footer-sec.css.map */

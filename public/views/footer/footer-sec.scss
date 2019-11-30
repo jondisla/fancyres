@@ -4,4 +4,43 @@ $lightGrey : rgb(228, 226, 226);
     background: rgb(36, 36, 36);
     color:$lightGrey;
     padding: 60px 0;
+    font-size: 15px;
+    .link-section{
+        border-bottom: 1px solid $lightGrey;
+    }
+    img{
+        width: 200px;
+        padding: 0 0 10px 0;
+    }
+    .footer-menu{
+        margin: 15px 0;
+        h5{
+            text-transform: uppercase;
+        }
+        ul{
+            margin: 0;
+            list-style-type: none;
+            padding-bottom: 50px;
+            li{
+                margin: 0 -40px;
+                padding: 10px 0;
+            }
+        }
+        .opening-hours{
+            li{
+                border-bottom: 1px solid $lightGrey;
+            }
+        }
+    }
+    .terms{
+        padding: 20px 0;
+        ul{
+            position: absolute;
+            list-style-type: none;
+            right: 100px;
+            li{
+                display: inline-block;
+            }
+        }
+    }
 }
