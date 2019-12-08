@@ -1,3 +1,4 @@
+<?php?>
 <div class="footer-sec">
     <div class="container">
         <div class="link-section row">

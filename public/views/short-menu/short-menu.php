@@ -1,3 +1,4 @@
+<?php?>
 <div class="short-menu">
     <div class="container">
         <div class="content text-center">

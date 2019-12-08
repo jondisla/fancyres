@@ -1,3 +1,4 @@
+<?php?>
 <div class="reviews">
     <div class="container">
         <div class="content text-center">

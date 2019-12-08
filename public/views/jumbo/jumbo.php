@@ -1,4 +1,4 @@
-
+<?php?>
 <div class="tinted">
 <div class="jumbotron topJumbo">
   <div class="jumboText">

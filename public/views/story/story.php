@@ -1,3 +1,4 @@
+<?php?>
 <div class="container">
     <div class="story">
         <div class="row">
