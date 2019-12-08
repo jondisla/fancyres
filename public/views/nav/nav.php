@@ -1,6 +1,13 @@
-
-<nav class="nav justify-content-center">
-  <a class="nav-link active" href="#">Active link</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link disabled" href="#">Disabled link</a>
-</nav>
+<div class="navbar">
+  <div class="container">
+    <ul>
+      <li class="logo"><img src="../public/views/nav/logonav.png" alt="fancyres"></li>
+      <div class="nav-items">
+        <li>Home</li>
+        <li>Reservation</li>
+        <li>Menu</li>
+        <li>Contact</li>
+      </div>
+    </ul>
+  </div>
+</div>

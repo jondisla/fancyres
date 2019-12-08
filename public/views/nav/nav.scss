@@ -1,3 +1,19 @@
-nav{
-    background: black;
+.navbar{
+    background: rgba(0, 0, 0, 0.246);
+    img{
+        width: 200px;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            padding: 0 10px;
+        }
+    }
+    .nav-items{
+        display: inline-block;
+        position: absolute;
+        right: 124px;
+        top: 30px;
+    }
 }
