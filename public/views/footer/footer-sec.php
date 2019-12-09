@@ -47,19 +47,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        4
+                    <div class="col-lg-6 gmaps">
+                        <img src="../public/views/footer/gmaps.jpg" alt="gmaps">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="terms">
+        <!-- copy -->
+        <div class="row terms">
+            <div class="col-lg-6">
             &copy Copyright Fancyres 2019
-            <ul>
-                <li>Terms of use</li>
-                <li>Liscense</li>
-                <li>Support</li>
-            </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul>
+                    <li class="contents">Terms of use</li>
+                    <li class="contents">Liscense</li>
+                    <li class="contents">Support</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

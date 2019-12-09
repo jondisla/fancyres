@@ -31,15 +31,23 @@ $lightGrey : rgb(228, 226, 226);
                 border-bottom: 1px solid $lightGrey;
             }
         }
+        .gmaps{
+            padding: 40px 0 0 0;
+        }
     }
     .terms{
         padding: 20px 0;
         ul{
             position: absolute;
             list-style-type: none;
-            right: 100px;
+            right: 40px;
             li{
-                display: inline-block;
+                display: inline;
+                padding: 0 20px;
+                cursor:pointer;
+                &:hover{
+                    color: red;
+                }
             }
         }
     }

@@ -1,6 +1,7 @@
 .topJumbo {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./img/topJumbo.jpg") !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/topJumbo.jpg") !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./img/topJumbo.jpg") no-repeat center center fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/topJumbo.jpg") no-repeat center center fixed !important;
+  background-size: cover;
   height: 100vh;
   color: white;
 }

@@ -37,6 +37,10 @@
   border-bottom: 1px solid #e4e2e2;
 }
 
+.footer-sec .footer-menu .gmaps {
+  padding: 40px 0 0 0;
+}
+
 .footer-sec .terms {
   padding: 20px 0;
 }
@@ -44,10 +48,16 @@
 .footer-sec .terms ul {
   position: absolute;
   list-style-type: none;
-  right: 100px;
+  right: 40px;
 }
 
 .footer-sec .terms ul li {
-  display: inline-block;
+  display: inline;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.footer-sec .terms ul li:hover {
+  color: red;
 }
 /*# sourceMappingURL=footer-sec.css.map */
