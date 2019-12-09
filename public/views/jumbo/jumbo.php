@@ -18,7 +18,7 @@
       </tr>
     </table>
     <p class="lead button">
-      <a class="btn btn-danger btn-lg" href="Jumbo action link" role="button">Order Now</a>
+      <a class="btn btn-danger btn-lg" href="#" role="button">Order Now</a>
     </p>
   </div>
 </div>

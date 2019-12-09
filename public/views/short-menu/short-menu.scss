@@ -84,3 +84,13 @@ $textGrey : rgb(94, 92, 92);
         }
     }
 }
+
+// media queries
+
+@media screen and (max-width: 800px) {
+    .menu-nav{
+        ul{
+        width: 50% !important;
+        }
+    }
+}

@@ -88,4 +88,10 @@
 .short-menu .content .menu-sec .card-body .order-now p {
   margin: 20px 0;
 }
+
+@media screen and (max-width: 800px) {
+  .menu-nav ul {
+    width: 50% !important;
+  }
+}
 /*# sourceMappingURL=short-menu.css.map */

@@ -39,8 +39,8 @@ $(document).ready(function(){
     //browser width
     console.log($(window).width());
 
+
     $('.nav-items-btn').click(()=>{
-        console.log('lll')
         $('.mobile-menu-items').toggleClass('active')
     })
 });
