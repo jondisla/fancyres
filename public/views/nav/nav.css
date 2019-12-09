@@ -41,6 +41,10 @@
   top: 30px;
 }
 
+.navbar .nav-items-mobile {
+  display: none;
+}
+
 .small {
   background: white;
   width: 100%;
@@ -56,6 +60,7 @@
 
 .small .logo {
   display: block;
+  padding: 10px 0 0 0;
 }
 
 .small .smalllogo {
@@ -87,5 +92,36 @@
   position: absolute;
   right: 124px;
   top: 25px;
+}
+
+.small .nav-items-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 590px) {
+  .nav-items {
+    display: none !important;
+  }
+  .nav-items-btn {
+    display: block !important;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+  .nav-items-btn .mobile-menu-items {
+    color: black;
+    display: none;
+    background: white;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    width: 160px;
+  }
+  .nav-items-btn .mobile-menu-items li {
+    padding: 10px;
+  }
+  .nav-items-btn .mobile-menu-items.active {
+    display: block;
+  }
 }
 /*# sourceMappingURL=nav.css.map */
