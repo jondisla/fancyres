@@ -90,6 +90,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .subtext {
+    width: 70% !important;
+  }
   .menu-nav ul {
     width: 50% !important;
   }

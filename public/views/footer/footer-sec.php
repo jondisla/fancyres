@@ -5,7 +5,7 @@
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="../public/views/footer/footerimg.png" alt="fancyreslogo">
+                        <img src="./public/views/footer/footerimg.png" alt="fancyreslogo">
                         <p>
                             123 Northfold Ave.
                             <br>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 gmaps">
-                        <img src="../public/views/footer/gmaps.jpg" alt="gmaps">
+                        <img src="./public/views/footer/gmaps.jpg" alt="gmaps">
                     </div>
                 </div>
             </div>
