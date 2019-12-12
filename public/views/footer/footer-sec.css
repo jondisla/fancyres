@@ -23,13 +23,12 @@
 }
 
 .footer-sec .footer-menu ul {
-  margin: 0;
+  margin: 0 auto;
   list-style-type: none;
-  padding-bottom: 50px;
+  padding: 0;
 }
 
 .footer-sec .footer-menu ul li {
-  margin: 0 -40px;
   padding: 10px 0;
 }
 

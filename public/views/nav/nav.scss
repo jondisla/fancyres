@@ -1,11 +1,12 @@
 .navbar{
     background: rgba(235, 235, 235, 0.459);
-    width: 100%;
+    width: 100vw;
     transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
     z-index: 1;
     color: white;
     .logo{
         display: none;
+        border: none !important;
     }
     .smalllogo{
         display: block;
@@ -100,6 +101,9 @@
                 width: 160px;
                 opacity:0;
                 transition: visibility 0.5s, opacity 0.5s;
+                -webkit-box-shadow: -1px 0px 5px 2px rgba(235,235,235,1);
+        -moz-box-shadow: -1px 0px 5px 2px rgba(235,235,235,1);
+        box-shadow: -1px 0px 5px 2px rgba(235,235,235,1);
                 
                 li{
                     padding: 10px;

@@ -18,11 +18,10 @@ $lightGrey : rgb(228, 226, 226);
             text-transform: uppercase;
         }
         ul{
-            margin: 0;
+            margin: 0 auto;
             list-style-type: none;
-            padding-bottom: 50px;
+            padding: 0;
             li{
-                margin: 0 -40px;
                 padding: 10px 0;
             }
         }

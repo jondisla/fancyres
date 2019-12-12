@@ -4,7 +4,7 @@
         <div class="link-section row">
             <div class="col-lg-6">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-5">
                         <img src="./public/views/footer/footerimg.png" alt="fancyreslogo">
                         <p>
                             123 Northfold Ave.
@@ -17,7 +17,7 @@
                             <strong>Email</strong>: support@fancyres.com
                         </p>
                     </div>
-                    <div class="footer-menu col-lg-6">
+                    <div class="footer-menu col-lg-6 col-md-6 col-sm-4">
                         <h5>Food Menu</h5>
                         <ul>
                             <li>Catering</li>
@@ -30,16 +30,16 @@
             </div>
             <div class="footer-menu col-lg-6">
                 <div class="opening-hours row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-4">
                     <h5>Opening Hours</h5>
                         <div class="row">
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 col-md-4 col-sm-5 col-xs-5">
                                 <p>Mon-Tues:</p>
                                 <p>Wed-Thur:</p>
                                 <p>Lunch:</p>
                                 <p>Sun:</p>
                             </div>
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 col-md-6 col-sm-4 col-xs-4">
                             <p>6:00am - 10:00pm</p>
                             <p>8:00am - 6:00pm</p>
                             <p>Everyday</p>
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 gmaps">
+                    <div class="col-lg-6 col-md-6 col-sm-4 gmaps">
                         <img src="./public/views/footer/gmaps.jpg" alt="gmaps">
                     </div>
                 </div>
