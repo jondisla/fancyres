@@ -1,113 +1,131 @@
-.navbar{
-    background: rgba(235, 235, 235, 0.459);
-    width: 100%;
-    transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
-    z-index: 1;
-    color: white;
-    .logo{
-        display: none;
-    }
-    .smalllogo{
-        display: block;
-    }
-    img{
-        width: 200px;
-    }
-    ul{
-        list-style-type: none;
-        li{
-            display: inline-block;
-            padding: 0 10px;
-            &:hover{
-                cursor: pointer;
-                border-bottom: 2px solid red;
-            }
-        }
-    }
-    .nav-items{
-        display: inline-block;
-        position: absolute;
-        right: 124px;
-        top: 30px;
-    }
-    .nav-items-btn{
-        display:none;
-    }
+/** @format */
+
+html {
+  scroll-behavior: smooth;
 }
 
-.small{
-    background: white;
-    width: 100%;
-    transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
-    z-index: 1;
-    color: black;
-    height: 70px;
-    -webkit-box-shadow: 0px 13px 8px -8px rgba(148,148,148,1);
-    -moz-box-shadow: 0px 13px 8px -8px rgba(148,148,148,1);
-    box-shadow: 0px 13px 8px -8px rgba(148,148,148,1);
-    .logo{
-        display: block;
-        padding: 10px 0 0 0;
+.link-active {
+  border-bottom: 2px solid red;
+}
+
+.navbar {
+  background: rgba(235, 235, 235, 0.459);
+  width: 100%;
+  transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  z-index: 1;
+  color: white;
+  .logo {
+    display: none;
+  }
+  .smalllogo {
+    display: block;
+  }
+  img {
+    width: 200px;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid red;
+      }
     }
-    .smalllogo{
-        display: none;
+  }
+  .nav-items {
+    display: inline-block;
+    position: absolute;
+    right: 124px;
+    top: 30px;
+  }
+  .nav-items-btn {
+    display: none;
+  }
+}
+
+.small {
+  background: white;
+  width: 100%;
+  transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  z-index: 1;
+  color: black;
+  height: 70px;
+  -webkit-box-shadow: 0px 13px 8px -8px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 0px 13px 8px -8px rgba(148, 148, 148, 1);
+  box-shadow: 0px 13px 8px -8px rgba(148, 148, 148, 1);
+  .logo {
+    display: block;
+    padding: 10px 0 0 0;
+  }
+  .smalllogo {
+    display: none;
+  }
+  img {
+    width: 100px;
+    transition: 0.5s;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      &:hover {
+        cursor: pointer;
+        border-bottom: 1px solid red;
+      }
     }
-    img{
-        width: 100px;
-        transition: 0.5s;
-    }
-    ul{
-        list-style-type: none;
-        li{
-            display: inline-block;
-            padding: 0 10px;
-            &:hover{
-                cursor: pointer;
-                border-bottom: 1px solid red;
-            }
-        }
-    }
-    .nav-items{
-        display: inline-block;
-        position: absolute;
-        right: 124px;
-        top:25px;
-    }
-    .nav-items-btn{
-        display:none;
-    }
+  }
+  .nav-items {
+    display: inline-block;
+    position: absolute;
+    right: 124px;
+    top: 25px;
+  }
+  .nav-items-btn {
+    display: none;
+  }
 }
 
 // media queries
 
 @media screen and (max-width: 800px) {
-    .nav-items{
-        display: none !important;
+  .nav-items {
+    display: none !important;
+  }
+  .nav-items-btn {
+    display: block !important;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+
+    .mobile-menu-items {
+      color: black;
+      visibility: hidden;
+      background: white;
+      position: absolute;
+      right: 0px;
+      top: 40px;
+      width: 160px;
+      opacity: 0;
+      transition: visibility 0.5s, opacity 0.5s;
+
+      li {
+        padding: 10px;
+      }
+      &.active {
+        visibility: visible;
+        opacity: 1;
+      }
     }
-    .nav-items-btn{
-        display:block !important;
-        position: absolute;
-        right: 20px;
-        top:25px;
-        
-        .mobile-menu-items{
-                color:black;
-                visibility: hidden;
-                background:white;
-                position: absolute;
-                right: 0px;
-                top:40px;
-                width: 160px;
-                opacity:0;
-                transition: visibility 0.5s, opacity 0.5s;
-                
-                li{
-                    padding: 10px;
-                }
-                &.active{
-                    visibility: visible;
-                    opacity:1;
-                }
-            }
-        }
-    }
+  }
+}

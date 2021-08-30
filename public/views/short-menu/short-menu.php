@@ -1,5 +1,5 @@
 <?php?>
-<div class="short-menu">
+<div class="short-menu" id="menu-sec">
     <div class="container">
         <div class="content text-center">
             <h3>Discover</h3>

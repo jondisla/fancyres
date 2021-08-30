@@ -1,5 +1,5 @@
 <?php?>
-<div class="tinted">
+<div class="tinted" id="top-sec">
 <div class="jumbotron topJumbo">
   <div class="jumboText">
     <h1 class="display-3">Buffet</h1>

@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4 meat">
             <div class="card">
-                <img class="card-img-top" src="../public/views/short-menu/img/pizza.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/pizza.jpg"  alt="">
                 <div class="menu-price">
                     $9.99
                 </div>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-4 meat">
             <div class="card">
-                <img class="card-img-top" src="../public/views/short-menu/img/burger.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/burger.jpg"  alt="">
                 <div class="menu-price">
                     $8.50
                 </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-4 meat">
             <div class="card ">
-                <img class="card-img-top" src="../public/views/short-menu/img/steak.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/steak.jpg"  alt="">
                 <div class="menu-price">
                     $12.00
                 </div>
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-lg-4 sandwich">
             <div class="card">
-                <img class="card-img-top" src="../public/views/short-menu/img/sandwich1.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/sandwich1.jpg"  alt="">
                 <div class="menu-price">
                     $6.50
                 </div>
@@ -84,7 +84,7 @@
         </div>
         <div class="col-lg-4 sandwich">
             <div class="card">
-                <img class="card-img-top" src="../public/views/short-menu/img/sandwich2.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/sandwich2.jpg"  alt="">
                 <div class="menu-price">
                     $6.00
                 </div>
@@ -104,7 +104,7 @@
         </div>
         <div class="col-lg-4 salad">
             <div class="card">
-                <img class="card-img-top" src="../public/views/short-menu/img/salad.jpg"  alt="">
+                <img class="card-img-top" src="./public/views/short-menu/img/salad.jpg"  alt="">
                 <div class="menu-price">
                     $5.00
                 </div>
