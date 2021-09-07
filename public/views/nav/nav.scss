@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .link-active {
@@ -146,10 +147,14 @@ html {
   .topJumbo {
     h2 {
       font-size: 50px !important;
+      text-align: center !important;
     }
     table {
       position: absolute;
       left: 0;
+    }
+    .lead a {
+      margin-top: 200px;
     }
   }
   .subtext {
