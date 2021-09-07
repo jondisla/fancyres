@@ -118,6 +118,20 @@ html {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mobile-menu-items,
+  .active {
+    background-color: #cbcbcb !important;
+    color: white !important;
+    width: 100px !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .navbar {
+    width: 100vw;
+  }
   .nav-items {
     display: none !important;
   }
@@ -138,6 +152,7 @@ html {
     opacity: 0;
     -webkit-transition: visibility 0.5s, opacity 0.5s;
     transition: visibility 0.5s, opacity 0.5s;
+    border-radius: 5px;
   }
   .nav-items-btn .mobile-menu-items li {
     padding: 10px;
@@ -145,6 +160,16 @@ html {
   .nav-items-btn .mobile-menu-items.active {
     visibility: visible;
     opacity: 1;
+  }
+  .topJumbo h2 {
+    font-size: 50px !important;
+  }
+  .topJumbo table {
+    position: absolute;
+    left: 0;
+  }
+  .subtext {
+    width: 100% !important;
   }
 }
 /*# sourceMappingURL=nav.css.map */

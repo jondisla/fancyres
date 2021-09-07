@@ -99,6 +99,20 @@ html {
 // media queries
 
 @media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mobile-menu-items,
+  .active {
+    background-color: rgb(203, 203, 203) !important;
+    color: white !important;
+    width: 100px !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .navbar {
+    width: 100vw;
+  }
   .nav-items {
     display: none !important;
   }
@@ -118,6 +132,7 @@ html {
       width: 160px;
       opacity: 0;
       transition: visibility 0.5s, opacity 0.5s;
+      border-radius: 5px;
 
       li {
         padding: 10px;
@@ -127,5 +142,17 @@ html {
         opacity: 1;
       }
     }
+  }
+  .topJumbo {
+    h2 {
+      font-size: 50px !important;
+    }
+    table {
+      position: absolute;
+      left: 0;
+    }
+  }
+  .subtext {
+    width: 100% !important;
   }
 }
