@@ -32,3 +32,23 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .jumboText{
+        h2{
+        font-size: 40px !important;
+        }
+        table{
+            i{
+                display: none;
+            }
+            margin: 0;
+            td{
+            padding: 10px !important;
+            background: rgba(128, 128, 128, 0.322);
+            font-size:20px !important;
+            border: 1px solid rgba(216, 216, 216, 0.445);
+            }
+        }
+    }
+}
